@@ -7,31 +7,39 @@
     <title>Easter Egg Hunt</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script type="text/javascript" src="Assets/Scripts/scripts.js"></script>
 </head>
 <body>
     <div class="quiz">
         <div class="container">
-        <div class="jumbotron">
+            <div class="jumbotron">
                 <div class="title">
                     <h1>Easter Egg Hunt</h1>
                 </div>
-                
-        <div="question">
-            <p>Which plant is a symbol of the resurrection of Jesus?</p>
-        </div>
-        </div>
-        </div>
-        <div class="alternatives row">
-            <div class="img-rose col-lg-3">
-                <a href="page-two.html"><img src="Assets/Images/rose.png"></a>
+             <div class="description">
+                 <p>
+                     In order to save the Easter celebration you first need.
+                 </p>
+             </div>   
+            <div="question">
+                <p>Which plant is a symbol of the resurrection of Jesus?</p>
+                <p>Click on the flower</p>
             </div>
-            <div class="img-lily col-lg-3">
-                <img src="Assets/Images/lily.png">
+          </div>
             </div>
-            <div class="img-tulip col-lg-3">
-                <img src="Assets/Images/tulip.png">
-            </div>
-        </div>
+            <div class="containe">
+            <div class="row alternatives container">
+                <div class="container img-rose col-lg-3 col-md-3">
+                    <a href="page-two.html"><img src="Assets/Images/rose.png"></a>
+                </div>
+                <div class="container img-lily col-lg-3 col-md-3">
+                    <a href="#" onclick="displayErrorMessage()"><img src="Assets/Images/lily.png"></a>
+                </div>
+                <div class="container img-tulip col-lg-3 col-md-3">
+                    <a href="#" onclick="displayErrorMessage()" ><img src="Assets/Images/tulip.png" ></a>
+                </div>
+           </div>
+           </div>
     </div>
     
    <footer>
