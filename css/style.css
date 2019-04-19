@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    /*background-image: url(../Assets/Images/happy-easter.png);*/
+    
+}
+
 h1 {
     font-family: 'Boogaloo', cursive;
     color: green;
@@ -10,7 +15,8 @@ h1 {
 
 p,
 ul {
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .alternatives {
@@ -23,15 +29,32 @@ ul {
    max-height: 200px;
 }
 
-footer {
-    width: 100%;
-}
-
-
 img {
-    width: 200px;
+    width: 10rem;
 }
 
 img:hover {
     cursor: pointer;
 }
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    margin-top: 170px;
+}
+
+.happy-end-background {
+    background-image: url("Assets/Images/happy-easter.png");
+    background-size: cover;
+    background-position: center; 
+}
+

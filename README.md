@@ -4,12 +4,20 @@ Then this is the game for you.
 Go on an adventure with the Easter Bunny. 
 # UX
 
- -  As user I want to be able 
- -  As user
- -  As uSer
- -  as user
+ -  As user i want to be able to use a button to start the game. 
+ -  As user i want to click on one image that sent me to the next page.
+ -  As user there should be an error message popping up when a wrong answer has been clicked.
+ 
 
 # Features
+
+ - There is a clickable blue next button that sent you to the next page and start the game.
+ - The three pictures of flowers can be clicked on and a message popped up if you picked the wrong one.
+   If its the right one your going to the next page.
+
+### Features Left to Implement
+
+ - More questions to answer for the user.
 
 # Technologies Used
 - [Bootstrap](https://getbootstrap.com) 
