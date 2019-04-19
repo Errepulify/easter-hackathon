@@ -16,7 +16,7 @@ h1 {
 p,
 ul {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .alternatives {
@@ -50,6 +50,8 @@ footer {
     background-color: blue;
     color: white;
     margin-top: 170px;
+    position: absolute;
+  bottom: 0;
 }
 
 .happy-end-background {
