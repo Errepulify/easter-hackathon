@@ -16,6 +16,10 @@ h1 {
 p,
 ul {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+ul {
     text-align: left;
 }
 
@@ -58,5 +62,13 @@ footer {
     background-image: url("Assets/Images/happy-easter.png");
     background-size: cover;
     background-position: center; 
+    /*height: 50%;*/
 }
 
+.btn-primary {
+    color: green;
+}
+
+.btn-primary:hover {
+    background-color: green;
+}
